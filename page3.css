@@ -1,0 +1,51 @@
+#page3{
+    background-color: black;
+    padding: 10px;
+    position: relative;
+}
+
+.uni{
+   text-align: center;
+   color: white;
+   font-size: 1.5rem;
+   padding-bottom: 30px
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+
+body{
+  background:#222;
+}
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery a{
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 5px #000;
+}
+
+.gallery a img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery a img:hover{
+  transform:scale(1.1);
+}
+  
